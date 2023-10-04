@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* horizontally center */
+    align-items: center; /* vertically center */
+    background-color: #2b2d30;
+}
+
+div#content {
+    background: #95acfa;
+    width: 50%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.65);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Inter, serif;
+    color: white;
+}
+
+hr {
+    width: 80%;
+}
+
+#content > span {
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-group > button {
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.65);
+    border: none;
+    color: #1e1f22;
+}
+
+.btn-group > button:nth-child(1) {
+    background-color: #fd5f5f;
+}
+.btn-group > button:nth-child(2) {
+    background-color: #fac602;
+}
+.btn-group > button:nth-child(3) {
+    background-color: #5ffd7f;
+}
+.btn-group > button:hover {
+    background-color: #000000;
+    color: white;
+}
+.btn-group > button:active {
+    background-color: #ffffff;
+    color: rgba(0, 0, 0, 0.65);
+}
